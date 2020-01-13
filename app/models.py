@@ -20,4 +20,11 @@ class User(UserMixin, db.Model):
     def delete(self):
         db.session.delete(self)
         db.session.commit()
+        
+    def set_password(self, password):
+        pass_hash = generate_password_hash(password)
+        self.password = pass_hash
+
+    def check_password(self, password):
+        return check_password_hash(self.password, password)
 
