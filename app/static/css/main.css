@@ -1,3 +1,8 @@
+#jumbotron {
+  background-color: inherit;
+  color: white;
+
+}
 body{
 margin:0;
 padding:0;
@@ -23,7 +28,7 @@ font-size:20px;
 margin-top:20px;
 }
 
-#vick {
+#brian {
     align-self: center;
     background: white;
     width: 400px;
@@ -31,7 +36,7 @@ margin-top:20px;
     cursor: ew-resize;
     position: absolute;
     border-radius: 15px;
-    elevation: 30deg;
+    /* elevation: 30deg; */
 }
 
 #signup {
@@ -42,7 +47,7 @@ margin-top:20px;
     cursor: ew-resize;
     position: absolute;
     border-radius: 15px;
-    elevation: 30deg;
+    /* elevation: 30deg; */
 }
 
 .division {
@@ -62,7 +67,7 @@ padding:0;
 margin-top:20px;
     border: 0;
     background: orangered;
-    elevation: 20deg;
+    /* elevation: 20deg; */
     width: 80px;
     height: 40px;
     box-shadow: #989898 0 0 20px;
@@ -97,7 +102,8 @@ margin-top:20px;
 }
 
 #img{
-background-image:url('https://bit.ly/2QLud7s');
+/* background-image: url({{ url_for ('static', 'images', filename = 'pitch1.jpg') }}); */
+background-color: rgb(192, 255, 245);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
