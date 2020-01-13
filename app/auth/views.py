@@ -1,10 +1,11 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, redirect, url_for, flash, request
 from flask_login import login_user, logout_user
 
 from app.auth import auth
 from app.models import User
+from .forms import LoginForm,RegistrationForm
 from ..email import email_message
-from .. import db 
+ 
 
 
 @auth.route('/login', methods=['GET', 'POST'])
@@ -57,7 +58,7 @@ def signup():
             user = User(username=username, email=email)
             user.set_password(password)
             user.save()
-            # email_message("Welcome to 1m Pitch", "email/howdy", user.email, user=user)
+            # email_message("Welcome to 1minute Pitch", "email/salu", user.email, user=user)
             return redirect(url_for('auth.login'))
 
     return render_template('signup.html')
