@@ -4,6 +4,7 @@ from flask_login import login_required, current_user
 from . import main
 from .forms import PostForm, CommentForm, UpdateProfile
 from ..models import Post, Comment, User, Upvote, Downvote
+from .. import db 
 
 
 @main.route('/')
