@@ -1,9 +1,12 @@
 import unittest
+from app.models import User
 
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
+class UserModelTest(unittest.TestCase):
+    def setUp(self):
+        self.new_user = User(password = '12345678')
+        
+        self.assertTrue(self.new_userTrue, False)
 
 
 if __name__ == '__main__':
