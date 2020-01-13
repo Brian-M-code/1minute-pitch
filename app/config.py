@@ -9,7 +9,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mutumas:qwerty123@localhost/des'
 
     #  email configurations
-    # MAIL_SERVER = 'smtp.gmail.com'
+    MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 465
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
