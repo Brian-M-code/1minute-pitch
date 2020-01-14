@@ -3,21 +3,32 @@
 {% block content%}
 {% block styles %}
 {{super()}}
-<link rel="stylesheet" href="{{url_for('static',filename='css/particle.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/2main.css')}}">
 <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 
 {% endblock %}
-<div id="img">
-    <div class="p-3 p-md-5 m-md-3 text-center bg-transparent">
-        <div class="col-md-12 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal text-white">PITCHES</h1>
-            <p class="lead font-weight-normal text-white" style="font-size:20px">Welcome to One Minute Pitch<p><br>
-<p style="font-size:30px;color:white">If you only have a minute to impress someone. The minute can make or break you. Pitch something that would make it count?</p>
-            <div id="buttons d-block mx-auto">
-                <a class="btn btn-outline-secondary text-white" href="/new_post"style="font-size:30px">New Pitch</a>
-                <a class="btn btn-outline-secondary text-white" href="/posts"style="font-size:30px">View Pitches</a>
+<!-- Content block -->
+<div class="container">
+    <h1 style="text-align:center; background-image:inherit; color:white;padding:80px;">PITCH</h1>
+    <p style="color: white; text-align:center;" style="font-size:20px">Welcome to One Minute Pitch<p><br>
+    <p style="font-size:30px; color:white; text-align:center">If you only have a minute to impress someone. The minute can make or break you. Pitch something that would make it count?</p>
+</div>
+<br>
+<br>
+
+<div class="container" style="font-family: 'Cormorant Upright', serif;">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="well well-lg">
+                <a class="btn btn-outline-secondary text-white" href="/new_post" style="font-size:30px">New Pitch</a>
             </div>
         </div>
+
+        <div class="col-md-6">
+        <!-- <div class="well well-lg"> -->
+            <a class="btn btn-outline-secondary text-white" href="/posts" style="font-size:30px">View Pitches</a>
+        </div>
     </div>
+
 </div>
 {% endblock %}

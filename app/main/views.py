@@ -7,6 +7,7 @@ from ..models import Post, Comment, User, Upvote, Downvote
 from .. import db 
 
 
+
 @main.route('/')
 def index():
     posts = Post.query.all()
