@@ -6,17 +6,13 @@ body{
 margin:0;
 padding:0;
 }
-/* .container1 {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    float: center; */
-    /* position: absolute; */
-
-/* } */
 .overlay{
   color: black;
 }
+#navbar{
+  background-color: black;
+  }
+  
 
 #centered-card{
   margin:0;                                         
@@ -39,17 +35,14 @@ font-size:20px;
 
 #bri-signup{
 margin-top:20px;
+width: 100%;
 }
 
 #brian {
   align-self: center;
-  background: white;
-  width: 400px;
-  height: 400px;
+  background: lightgreen;
   cursor: ew-resize;
-  position: absolute;
   border-radius: 15px;
-    /* elevation: 30deg; */
 }
 
 .division {
@@ -58,13 +51,13 @@ margin-top:20px;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #hellobutton {
 margin-top:20px;
     border: 0;
     background: greenyellow;
-    /* elevation: 20deg; */
     width: 80px;
     height: 40px;
     box-shadow: #989898 0 0 20px;
@@ -85,7 +78,7 @@ margin-top:20px;
 }
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(194, 14, 89, 0.548);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
@@ -94,12 +87,12 @@ margin-top:20px;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: #fff;
+  color: lightpink;
   text-decoration: none;
 }
 
 #img{
-background-image:url('https://theultralinx.com/.image/t_share/MTY5NTk4MjU5NTY2NzQ5NTA5/joshua-fuller-2ksz19vykki-unsplash.jpg'); 
+background-image:url('https://pbs.twimg.com/media/DjSwSfoU8AE0fSB.jpg'); 
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -116,6 +109,6 @@ display:flex;
 }
 
 .card{
-  background-color: inherit;
+  background-color: lightpink;
   color: white;
 }

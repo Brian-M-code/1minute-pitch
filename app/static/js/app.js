@@ -125,7 +125,7 @@ particlesJS('particles-js',
         "config_demo": {
             "hide_card": true,
             "background_color": "#b61924",
-            "background_image": "https://theultralinx.com/.image/t_share/MTY5NTk4MjU5NTY2NzQ5NTA5/joshua-fuller-2ksz19vykki-unsplash.jpg",
+            "background_image": "https://pbs.twimg.com/media/DjSwSfoU8AE0fSB.jpg",
             "background_position": "50% 50%",
             "background_repeat": "no-repeat",
             "background_size": "cover"

@@ -7,14 +7,14 @@
 <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 
-<div class="overlay">
-    <div id="particles-js" class="container1">
-        <div id="brian" class="division wrapper fadeInDown">
+<div class="overlay text-success">
+    <div id="" class="">
+        <div id="" class="division wrapper fadeInDown">
             <h3 class="text-center text-black login-text" id="login"> Login</h3>
             <div class="alert alert-danger" role="alert">
                 {{error}}
             </div>
-            <div class="bri-div" id="centered-card" padding-top="0px">
+            <div class="bri-div" id="centered-card">
                 <form action="/login" method="POST">
                     <label for="username">Username</label>
                     <input type="text text-black" class="form-control" placeholder="Username" name="username">
