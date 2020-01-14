@@ -112,3 +112,9 @@ display:flex;
   background-color: lightpink;
   color: white;
 }
+#log{
+  padding-top: 40px;
+}
+#sig{
+  padding-top: 0px;
+}
