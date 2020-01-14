@@ -4,7 +4,7 @@
 {% block styles %}
 {{super()}}
 <link rel="stylesheet" href="{{url_for('static',filename='css/particle.css')}}">
-<link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 
 <div class="overlay">
@@ -23,7 +23,7 @@
                     <input type="password" class="form-control" placeholder="Password" name="password">
                     <button id="hellobutton" type="submit" class="d-block mx-auto">Login</button>
                 </form>
-                <p class="login-text" id="option-signup">Don't have an account? <a href="/signup">Sign Up</a></p>
+                <p class="login-text" id="option-signup"italic> If you don't have an account? <a href="/signup">Sign Up</a></p>
             </div>
         </div>
     </div>

@@ -51,15 +51,17 @@ margin-top:20px;
 }
 
 .division {
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
+  padding-top: 300px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 #centered-card{
-margin:0;                                         
-padding:0;
+  margin:0;                                         
+  padding-top:700px;
+  color: black
 }
 
 
@@ -102,8 +104,7 @@ margin-top:20px;
 }
 
 #img{
-/* background-image: url({{ url_for ('static', 'images', filename = 'pitch1.jpg') }}); */
-background-color: rgb(192, 255, 245);
+background-image:url('https://theultralinx.com/.image/t_share/MTY5NTk4MjU5NTY2NzQ5NTA5/joshua-fuller-2ksz19vykki-unsplash.jpg');
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -118,4 +119,6 @@ display:flex;
 .flex-stuff{
 display:flex;
 }
-
+.overlay{
+  color: black;
+}

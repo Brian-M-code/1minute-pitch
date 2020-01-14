@@ -4,7 +4,7 @@
 {% block styles %}
 {{super()}}
 <link rel="stylesheet" href="{{url_for('static',filename='css/particle.css')}}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 <div class="overlay">
 
@@ -16,18 +16,18 @@
             </div>
             <div class="division" id="centered-card">
                 <form action="/signup" method="POST">
-                    <label for="username">Username</label>
+                    <label for="username"text-white>Username</label>
                     <input type="text" class="form-control" placeholder="Username" name="username">
                     <label for="email">Email</label>
                     <input type="email" class="form-control" placeholder="Email" name="email">
-                    <label for="password">Password</label>
+                    <label for="password"text-white>Password</label>
                     <input type="password" class="form-control" placeholder="Password" name="password">
                     <label for="confirm_password">Confirm Password</label>
                     <input type="password" class="form-control" placeholder="Confirm Password" name="confirm_password">
-                    <button id="hellobutton" type="submit" class="d-block mx-auto">Sign Up</button>
+                    <button id="hellobutton" type="submit" class="d-block mx-auto" text-white>Sign Up</button>
                 </form>
 
-                <p>Already have an account? <a href="/login">Login</a></p>
+                <p text-white>Already have an account? <a href="/login">Login</a></p>
             </div>
         </div>
     </div>

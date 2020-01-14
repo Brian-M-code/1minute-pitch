@@ -4,7 +4,8 @@
 {% block styles %}
 {{super()}}
 <link rel="stylesheet" href="{{url_for('static',filename='css/particle.css')}}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+
 {% endblock %}
 <div id="img">
     <div class="p-3 p-md-5 m-md-3 text-center bg-transparent">
