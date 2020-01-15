@@ -17,7 +17,7 @@ login_manager.session_protection = 'strong'
 
 
 
-def create_app():
+def create_app(__name__):
     app.config.from_object(Config)
     from .auth import auth as auth_blueprint
     from .main import main as main_blueprint
