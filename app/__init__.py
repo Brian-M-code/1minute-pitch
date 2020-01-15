@@ -24,5 +24,5 @@ def create_app(__name__):
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(main_blueprint)
     mail.init_app(app)
-    
+    db.init_app(app)
     return app
