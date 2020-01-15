@@ -116,7 +116,8 @@ class Downvote(db.Model):
     downvote = db.Column(db.Integer, default=1)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     post_id = db.Column(db.Integer, db.ForeignKey('posts.id'))
-
+    comment_id = db.column(db.Integer)
+    
     def save(self):
         db.session.add(self)
         db.session.commit()
