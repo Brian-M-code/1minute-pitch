@@ -15,7 +15,7 @@ class Config:
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
-    MAIL_PASSWORD = os.environ.get("MchmoAIL_PASSWORD")
+    MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     
 
 
