@@ -9,7 +9,7 @@
 
  ## BDD(Behaviour Driven Development)
 
-  ![alt text](amin2pitch.png)
+ ![screenshot](static/images/amin2pitch.png)
 
 ##### Login Inputs
 
@@ -80,3 +80,11 @@ To work with ONE MINUTE PITCH App you need to have some few prerequisites.
 - Postgresql
 
 - SQLAlchemy
+
+## License.
+[The MIT license](license.md)
+Copyright (c) Brian-M-Code @2019
+
+
+#### For any inquiries contact me at..
+- mutuma.brian@yahoo.com 
