@@ -9,7 +9,7 @@
 
  ## BDD(Behaviour Driven Development)
 
-  ![alt text](img.png)
+  ![alt text](amin2pitch.png)
 
 ##### Login Inputs
 
